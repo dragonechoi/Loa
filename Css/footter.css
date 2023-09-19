@@ -1,0 +1,35 @@
+#foot{
+    background-color: #01040A;
+   position: absolute;
+   bottom: 0px;
+   left: 0%;
+   width: 100%;
+   height: 150px;
+   
+  
+}
+#foot :first-child{
+    position: absolute;
+    color: #FADC79;
+    left: 48%;
+}
+#lopel2{
+    position: absolute;
+    color: #FADC79;
+    border: 1px solid #FADC79;
+    bottom: 40px;
+    left: 39%;
+}
+#service{
+    position: absolute;
+    color: #FADC79;
+    bottom: 70px;
+    left: 45%;
+   
+}
+#report{
+    position: absolute;
+    color: #FADC79;
+    bottom: 70px;
+    left: 55%;
+}
