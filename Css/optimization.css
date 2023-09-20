@@ -1,19 +1,24 @@
 body {
     margin: 0px;
+    background-color: #01040A;
 }
 
 .container_warp {
     display: flex;
     width: 100%;
-    background-color: #01040A;
+    position: absolute;
+    top: 245px;
+    border: 1px solid white;
+    /* background-color: #01040A; */
     justify-content: center;
 }
 
 .container_header {
     color: #fadc79;
-    font-size: 20px;
+    /* size: 30px; */
     margin-left: 20px;
-    /* text-align: center; */
+    /* font-weight: bold; */
+    -webkit-text-stroke: 1px gray;
     /* 백그라운드 컬러 검정 - 투명도 지정 - 텍스트 윤곽선 추가 */
 }
 
