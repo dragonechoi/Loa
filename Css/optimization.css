@@ -1,3 +1,4 @@
+/* 바디영역 */
 body {
     margin: 0px;
     background-color: #01040A;
@@ -13,13 +14,14 @@ body {
     justify-content: center;
 }
 
-.container_header {
+#container_header {
     color: #fadc79;
-    /* size: 30px; */
     margin-left: 20px;
+    margin-top: 10px;
+    /* font-size: 30px; */
     /* font-weight: bold; */
+    /* 이 위에 두개는 왜 부트스트랩이랑 같이 못 쓰는거지.. */
     -webkit-text-stroke: 1px gray;
-    /* 백그라운드 컬러 검정 - 투명도 지정 - 텍스트 윤곽선 추가 */
 }
 
 .container {
