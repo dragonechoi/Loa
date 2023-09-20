@@ -1,0 +1,33 @@
+body {
+    margin: 0px;
+}
+
+.container_warp {
+    display: flex;
+    width: 100%;
+    background-color: #01040A;
+    justify-content: center;
+}
+
+.container_header {
+    color: #fadc79;
+    font-size: 20px;
+    margin-left: 20px;
+    /* text-align: center; */
+    /* 백그라운드 컬러 검정 - 투명도 지정 - 텍스트 윤곽선 추가 */
+}
+
+.container {
+    background-color: white;
+    margin: 30px;
+    width: 40%;
+    height: 500px;
+}
+
+.specup_efficiency {
+
+}
+
+.ability_stone {
+    
+}
