@@ -1,0 +1,82 @@
+/* 광고 영역 콘테이너 */
+#entercon{
+    position: absolute;
+    display: flex;
+    width: 70%;
+    height: 180px;
+    background-color: beige;
+    top: 245px;
+   left: 15%;
+    align-items: center;
+    background-color: #01040a;
+    border: 1px solid white;
+   
+}
+/* 광고 영역 콘테이너 */
+
+/* 광고 영역 */
+#enterCon{
+   margin-left: auto;
+   margin-right: auto;
+    
+}
+/* 광고 영역 */
+
+/* 검색 콘테이너 영역 */
+#searchCon{
+    position: absolute;
+    display: flex;
+    width: 70%;
+    background-color: #01040a;
+    bottom: 49%;
+    left: 15%;
+    height: 80px;
+    align-items: center;
+    align-content: center;
+    
+
+}
+/* 검색 콘테이너 영역 */
+
+/* 카테고리 선택영역 */
+#character{
+    position: absolute;
+  border-radius: 35px;
+  z-index: 101;
+    height: 70px;
+   margin-top: 21px;
+    
+    bottom: 5px;
+    background-color: white;
+    color:black ;
+    text-align: center;
+    border: 1px solid black;
+    font-weight: bold;
+}
+/* 카테고리 선택영역 */
+
+
+/* 검색 네비게이션 */
+#place {
+    border-radius: 35px;
+    height: 70px;
+    width: 500px;
+    z-index: 100;
+    border: 2px solid black;
+    padding-left: 10px;
+  
+}
+/* 검색 네비게이션 */
+
+#searchImg {
+    height: 40px;
+    position: absolute;
+   left: 30%;
+   top: 17px;
+   
+    cursor: pointer;
+    z-index: 100;
+   
+}
+/* 검색창 영역 */
+
