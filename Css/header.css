@@ -1,0 +1,36 @@
+/* 로고 이미지 */
+#logoImg {
+    width: 200px;
+    position: absolute;
+    display: inline-block;
+    margin-left: 2%;
+
+}
+
+/* 로고 이미지 END */
+
+/* navcondainer */
+#navcontainer {
+    display: inline-block;
+    position: absolute;
+    width: 100%;
+    margin-top: 120px;
+    text-align: center;
+
+    padding: 10px;
+    background-color: #01040A;
+}
+
+/* navcondainer END*/
+
+/* navBtn */
+#navBtn {
+    margin: 5px;
+    width: 200px;
+    text-align: center;
+    background-color: dimgray;
+    color: #FADC79;
+
+}
+
+/* navBtn END*/
