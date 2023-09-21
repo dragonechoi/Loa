@@ -27,21 +27,33 @@
         <!-- header END -->
         
         <!-- container -->
-        <div class="container_warp">
+        <div class="container_warp wt-100">
             <!-- 스펙업 효율표 -->
             <div class="container specup_efficiency">
-                <div class="container_header">
-                    <h1 id="container_header">스펙업 효율 정리 표</h1>
-                </div>
+                <h1 class="container_header">스팩업 효율 정리 표</h1>
                 <!-- 각 변수와 공식을 서버에서 받아온 후 클라이언트에서 계산 -->
                 <!-- 계산 후 테이블의 각 셀에 삽입 -->
+                <div class="table_box wt-100">
+                    <table class="wt-100" id="specup_table">
+                        <tr>
+                            <th>스펙업 수단</th>
+                            <th>비용</th>
+                            <th>상승폭</th>
+                            <th>1%당 비용</th>
+                        </tr>
+                        <tr>
+                            <td>무기 12,13</td>
+                            <td>100</td>
+                            <td>10%</td>
+                            <td>10</td>
+                        </tr>
+                    </table>
+                </div>
             </div>
 
             <!-- 어빌리티 스톤 시뮬레이터 -->
             <div class="container ability_stone">
-                <div class="container_header">
-                    <h1 id="container_header">돌파고</h1>
-                </div>
+                <h1 class="container_header">돌파고</h1>
                 <!-- 단축키로 3개 각인 증감, 되돌리기, 초기화 등이 가능하도록 세팅 -->
                 <!-- 목표값은 기본값은 77, 97로 설정 후 상세 설정은 클릭 이벤트로 팝업 띄우고 -->
             </div>
