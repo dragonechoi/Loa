@@ -6,6 +6,7 @@
     display: flex;
     border: 1px solid#FADC79;
     padding: 10px;
+    
 }
 
 #logo_container,#header_button{
@@ -17,30 +18,41 @@
    
 }
 #logo_container{
+    
     width: 180px;
-    height: 130px;
-    /* 로고 이미지와 버튼 영역의 간격을 10px로 설정합니다. */ 
+    height: 130px; 
     margin-right: 140px;
     margin-left: 150px;
     margin-top: 5px;
+   
+   
+   
 }
+
 #header_button{
     
     padding: 20px;
+    background-image: url("../Images/headerbuttonBG.png");
    
 }
 #lople_logo{
     width: 180px;
     height: 130px;
     margin-left: 55px;
-
+    background-image: url("../Images/stainles.png");
+    background-size: 270px 150px;
+    background-position: center;
+   
+    
+   
 }
-.btn-outline-warning{
+.btn{
     padding: 10px;
     display: inline-block;
     width: 130px;
     text-align: center;
     margin-left: 5px;
+    background-image: url("../Images/header-btn.png");
 }
 /* header */
 
@@ -70,11 +82,17 @@
     height: 130px;
     align-self: flex-start;
     margin-left: 10%;
+    background-image: url("../Images/stainles.png");
+    background-size: 270px 150px;
+    background-position: center;
 }
 #footter_logo_container p{
     display: inline;
     padding: 5px;
     margin-top: 35px;
     margin-left: 10%;
+}
+.pointer:hover{
+    cursor: pointer;
 }
 /* footter */
