@@ -1,0 +1,15 @@
+#accordion_mainCon{
+    position:absolute;
+    margin-top:200px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    left: 100px;
+    right: 100px;
+}
+#accordionServer_Statis{
+    margin-left: auto;
+    margin-right: auto;
+    left: 100px;
+    right: 100px;
+}
