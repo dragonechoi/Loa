@@ -1,82 +1,80 @@
-/* 광고 영역 콘테이너 */
-#entercon{
-    position: absolute;
-    display: flex;
-    width: 70%;
-    height: 180px;
-    background-color: beige;
-    top: 245px;
-   left: 15%;
+#header{
+    width: 100%;
     align-items: center;
-    background-color: #01040a;
-    border: 1px solid white;
+   
+    margin-top: 35px;
+    display: flex;
+    border: 1px solid#FADC79;
+    padding: 10px;
+}
+
+#logo_container,#header_button{
+    display: inline-block;
+    position: relative;
+    
+   margin-left: 5%;
+   
    
 }
-/* 광고 영역 콘테이너 */
-
-/* 광고 영역 */
-#enterCon{
-   margin-left: auto;
-   margin-right: auto;
-    
+#logo_container{
+    width: 180px;
+    height: 130px;
+    /* 로고 이미지와 버튼 영역의 간격을 10px로 설정합니다. */ 
+    margin-right: 140px;
+    margin-left: 150px;
+    margin-top: 5px;
 }
-/* 광고 영역 */
-
-/* 검색 콘테이너 영역 */
-#searchCon{
-    position: absolute;
-    display: flex;
-    width: 70%;
-    background-color: #01040a;
-    bottom: 49%;
-    left: 15%;
-    height: 80px;
-    align-items: center;
-    align-content: center;
+#header_button{
     
+    padding: 20px;
+   
+}
+#lople_logo{
+    width: 180px;
+    height: 130px;
+    margin-left: 55px;
 
 }
-/* 검색 콘테이너 영역 */
-
-/* 카테고리 선택영역 */
-#character{
-    position: absolute;
-  border-radius: 35px;
-  z-index: 101;
-    height: 70px;
-   margin-top: 21px;
-    
-    bottom: 5px;
-    background-color: white;
-    color:black ;
+.btn-outline-warning{
+    padding: 10px;
+    display: inline-block;
+    width: 130px;
     text-align: center;
-    border: 1px solid black;
-    font-weight: bold;
+    margin-left: 5px;
 }
-/* 카테고리 선택영역 */
+/* header */
 
-
-/* 검색 네비게이션 */
-#place {
-    border-radius: 35px;
-    height: 70px;
-    width: 500px;
-    z-index: 100;
-    border: 2px solid black;
-    padding-left: 10px;
-  
+#footter_wrap{
+    width: 100%;
+    height: 200px;
+    background-color: #01040a;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    
+    
+    
 }
-/* 검색 네비게이션 */
-
-#searchImg {
-    height: 40px;
-    position: absolute;
-   left: 30%;
-   top: 17px;
+#footter_logo_container{
+    width: 100%;
+    height: 100%;
+   border: 1px solid #FADC79;
    
-    cursor: pointer;
-    z-index: 100;
+   display: flex;
+   justify-content: left;
+   color: #FADC79;
    
 }
-/* 검색창 영역 */
-
+#footter_logo {
+    width: 180px;
+    height: 130px;
+    align-self: flex-start;
+    margin-left: 10%;
+}
+#footter_logo_container p{
+    display: inline;
+    padding: 5px;
+    margin-top: 35px;
+    margin-left: 10%;
+}
+/* footter */
