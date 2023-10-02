@@ -167,9 +167,9 @@ body{
     width: 60%;
     height: 130px;
     background-color: white;
-    margin-left: 300px;
+    margin-left: 20%;
     text-align: center;
-    text-align: center;
+   
     
 }
 #font_container{
@@ -179,7 +179,57 @@ body{
 }
 
 
-/* 텍스트 항목 클래스 선택자 부여하여 마우스 커서 올릴시 커서 변경 */
+#loa_content{
+    position: relative;
+    width: 100%;
+    height: 250px;
+    text-align: center;
+}
+#screen_shot{
+    display: inline-block;
+    width: 450px;
+    height: 200px;
+    background-color: #FADC79;
+   margin-right: 15px;
+
+}
+#wish_list{
+    display: inline-block;
+    width: 450px;
+    height: 200px;
+    background-color: #FADC79;
+    margin-left: 5px;
+}
+#island_time_container{
+    width: 100%;
+    height: 300px;
+    text-align: center;
+   margin-top: 15px;
+}
+#island{
+     display: inline-block;
+     width: 200px;
+     padding: 15px;
+     margin-left: 2%;
+     margin-right: 4%;
+   
+    
+}
+.img{
+    width: 200px;
+    padding: 5px;
+    margin-top: 25px;
+    
+}
+#time_box{
+   width: 30px;
+   text-align: center;
+   color: #FADC79;
+   padding: 2px;
+   margin-left: 45px;
+}
+
+
 
 
 
