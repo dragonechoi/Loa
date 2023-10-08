@@ -10,12 +10,8 @@ body {
 
 .container_warp {
     display: flex;
-    /* width: 100%; */
-    position: absolute;
-    top: 245px;
-    border: 1px solid white;
-    /* background-color: #01040A; */
     justify-content: center;
+    /* color: white; */
 }
 
 .container_header {
@@ -28,25 +24,68 @@ body {
 }
 
 .container {
-    background-color: white;
+    background-color: rgba(255, 255, 255);
+    /* opacity: 0.5; */
     margin: 30px;
+    min-width: 400px;
     width: 40%;
     height: 500px;
 }
 
-.specup_efficiency {
-
+.table_wrap {
+    display: flex;
 }
 
-#specup_table {
-    border: 1px solid black;
+#ability_table {
+    /* width: 100%; */
+    margin: 10px;
     text-align: center;
 }
 
+.figure_wrap {
+    display: flex;
+    flex-flow: row;
+}
+
+#ability_table th {
+    min-width: 80px;
+}
+
+.diamond_figure {
+    width: 20px; height: 20px;
+    border-radius: 3px;
+    margin: 6px;
+    transform: rotate(45deg);
+}
+
+.upYN .diamond_figure {
+    border: 2px solid blue;
+}
+
+.downYN .diamond_figure {
+    border: 2px solid red;
+}
+
+
+
+/* .specup_efficiency {
+
+}
+
+
+
+#specup_table {
+    
+}
+
 #specup_table th {
-    width: 25%;
+    
+}
+
+#specup_table td {
+    
 }
 
 .ability_stone {
     
-}
+} */
