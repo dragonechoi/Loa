@@ -1,50 +1,60 @@
-#body{
+@font-face {
+    font-family: "LopleFont";
+    src: url("../font/solbiche.ttf");
+}
+
+#body {
     background-color: #14040A;
 }
 
-#mainCon{
-    position:absolute;
-    margin-top:100px;
+#mainCon {
+    margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
     width: 1200px;
     left: 100px;
     right: 100px;
-    font-size: 20px;
+    font-size: 25px;
     text-shadow: -1.6px 0 #14040A, 0 1.6px #14040A, 1.6px 0 #14040A, 0 -1.6px #14040A;
     color: white;
 }
-.accordion{
+
+.accordion {
     width: 1200px;
     margin-bottom: 50px;
 }
+
 /* btn accordion */
-.btn_accordion{
+.btn_accordion {
     cursor: pointer;
-    font-size: 18px;
     width: 1200px;
     height: 30px;
     border: 1px solid #14040A;
     background-color: white;
     text-align: left;
-    font-weight: bold;
+    font-size: 25px;
+    font-family: "LopleFont";
     color: white;
     text-shadow: -1.6px 0 #14040A, 0 1.6px #14040A, 1.6px 0 #14040A, 0 -1.6px #14040A;
 }
-.ArrowImg{
+
+.ArrowImg {
     transition: all 1s;
 }
-.ArrowImg.rotation{
+
+.ArrowImg.rotation {
     rotate: -180deg;
 }
+
 /* Btn - content 클릭시 클래스 추가 */
-.content_area.act{
+.content_area.act {
     visibility: visible;
     opacity: 1;
     margin-bottom: -50px;
 }
+
 /* 아코디언 content */
-.content_area{
+.content_area {
     background-color: #14040A;
     visibility: hidden;
     display: flex;
@@ -52,63 +62,73 @@
     transition: opacity 1.5s, height 1s, margin-bottom 1s;
     overflow: hidden;
 }
+
 /* 아코디언 화살표 */
-.ArrowImg{
-    width:30px;
-    float:right;
+.ArrowImg {
+    width: 30px;
+    float: right;
 }
+
 /* 전체 통계 관련 CSS 51줄 */
-#All_Statics{
+#All_Statics {
     height: 0px;
 }
-#All_Statics>div{
+
+#All_Statics>div {
     margin-left: 20px;
     position: relative;
     top: 25%;
     width: 400px;
 }
-/* #All_Statics>div>span:nth-child(1){
-    background-color: #FADC79;
-} */
-#All_Statics>div>span:nth-child(2){
-    margin-left:20px;
+
+#All_Statics>div>span:nth-child(1) {
+    color: #FADC79;
+}
+
+#All_Statics>div>span:nth-child(2) {
+    margin-left: 20px;
 }
 
 /* 서버별 통계 관련 CSS 93줄 */
-#Server_Statics{
+#Server_Statics {
     flex-direction: column;
     flex-wrap: wrap;
     position: relative;
     height: 0px;
 }
 
-#Server_Statics>div>div>span:nth-child(1){
-    color:#FADC79;
+#Server_Statics>div>div>span:nth-child(1) {
+    color: #FADC79;
 }
+
 /* #Server_Statics>div>div>span:nth-child(1)>span{
     background-color: #FADC79;
 } */
-#Server_Statics>div>div>span:nth-child(2){
+#Server_Statics>div>div>span:nth-child(2) {
     margin-left: auto;
 }
-#Server_Statics>div>div>span:nth-child(3){
+
+#Server_Statics>div>div>span:nth-child(3) {
     margin-right: 10px;
     margin-left: 240px;
     width: 80px;
     text-align: right;
 }
+
 /* 서버 통계 첫번째 라인 */
-#Server_ConFirstLine{
+#Server_ConFirstLine {
     position: absolute;
 }
-.Server_FirstLine{
+
+.Server_FirstLine {
     margin-left: 20px;
     display: flex;
     margin-top: 30px;
     width: 560px;
 }
+
 /* 서버 통계 중간 막대 */
-#Server_StaticsLine{
+#Server_StaticsLine {
     position: absolute;
     width: 15px;
     margin-top: 30px;
@@ -116,68 +136,82 @@
     background-color: white;
     margin-left: 600px;
 }
+
 /* 서버 통계 두번째 라인 */
-#Server_ConSecondLine{
+#Server_ConSecondLine {
     position: absolute;
     margin-left: 650px;
 }
-.Server_SecondLine{
+
+.Server_SecondLine {
     display: flex;
     margin-top: 30px;
     width: 540px;
 }
+
 /* 직업별 통계 관련 CSS */
-#Job_Statics{
+#Job_Statics {
     position: relative;
     height: 0px;
 }
-.Job_Statics_Header{
-    width:580px;
+
+.Job_Statics_Header {
+    width: 580px;
     margin-top: 20px;
     margin-bottom: 20px;
 }
-.Job_Statics_Header>span:nth-of-type(1){
-    color:#FADC79;
+
+.Job_Statics_Header>span:nth-of-type(1) {
+    color: #FADC79;
+    margin-right: 20px;
 }
-.Job_Statics_Con{
+
+.Job_Statics_Con {
     width: 550px;
     display: flex;
     flex-wrap: wrap;
 }
-.Job_Statics_Con>div{
-    width:270px;
-    font-size: 15px;
+
+.Job_Statics_Con>div {
+    width: 270px;
+    font-size: 20px;
 }
-.Job_Statics_Con>div>img{
-    width:90px;
+
+.Job_Statics_Con>div>img {
+    width: 90px;
 }
-.Job_Statics_Con>div>span:nth-of-type(1){
+
+.Job_Statics_Con>div>span:nth-of-type(1) {
     position: absolute;
     margin-top: 10px;
-    color:#FADC79;
+    color: #FADC79;
 }
-.Job_Statics_Con>div>span:nth-of-type(2){
+
+.Job_Statics_Con>div>span:nth-of-type(2) {
     position: absolute;
     margin-top: 30px;
 }
+
 /* 직업별 통계 왼쪽 칸 */
-.Job_Statics_MainConOne{
+.Job_Statics_MainConOne {
     position: absolute;
     margin-left: 20px;
     width: 542px;
     height: 265px;
     border-bottom: 5px solid white;
 }
+
 /* 직업별 통계 오른쪽 칸 */
-.Job_Statics_MainConTwo{
+.Job_Statics_MainConTwo {
     position: absolute;
     margin-left: 650px;
     width: 530px;
     height: 265px;
     border-bottom: 5px solid white;
 }
+
 /* 직업별 통계 중간 라인 */
-#Job_StaticsMiddleLine{
+#Job_StaticsMiddleLine {
     position: absolute;
     width: 15px;
     margin-top: 25px;
@@ -185,17 +219,24 @@
     background-color: white;
     margin-left: 600px;
 }
+
 /* 2번째 줄 */
-#TwoJob_Statics_Line{
-    position:absolute;
-    margin-top:270px;
+#TwoJob_Statics_Line {
+    position: absolute;
+    margin-top: 270px;
 }
+
 /* 3번째 줄 */
-#ThirdJob_Statics_Line{
-    position:absolute;
-    margin-top:540px;
+#ThirdJob_Statics_Line {
+    position: absolute;
+    margin-top: 540px;
 }
-#ThirdJob_Statics_Line>div{
+
+#ThirdJob_Statics_Line>div {
     border: 0px;
 }
 
+.btn {
+    font-size: 20px;
+    font-family: 'Loplefont';
+}
