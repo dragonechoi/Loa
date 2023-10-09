@@ -49,7 +49,7 @@
     visibility: hidden;
     display: flex;
     opacity: 0;
-    transition: opacity 2s, height 1s, margin-bottom 1s;
+    transition: opacity 1.5s, height 1s, margin-bottom 1s;
     overflow: hidden;
 }
 /* 아코디언 화살표 */
@@ -127,9 +127,9 @@
     width: 540px;
 }
 /* 직업별 통계 관련 CSS */
-.Job_Statics{
+#Job_Statics{
     position: relative;
-    height: 300px;
+    height: 0px;
 }
 .Job_Statics_Header{
     width:580px;
@@ -198,3 +198,4 @@
 #ThirdJob_Statics_Line>div{
     border: 0px;
 }
+

@@ -32,7 +32,7 @@ function AccordionEvent(click){
         $(ContentArea[2]).css('height','800px').addClass('act');
         $(ArrowImg[2]).addClass('rotation');
         }else{
-        $(ContentArea[2]).css('height','-50px').removeClass('act');
+        $(ContentArea[2]).css('height','-800px').removeClass('act');
         $(ArrowImg[2]).removeClass('rotation');
         }
       }
