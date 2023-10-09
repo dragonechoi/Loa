@@ -1,0 +1,91 @@
+.wt-100 {
+    width: 100%;
+}
+
+/* 바디영역 */
+body {
+    margin: 0px;
+    background-color: #01040A;
+}
+
+.container_warp {
+    display: flex;
+    justify-content: center;
+    /* color: white; */
+}
+
+.container_header {
+    color: #fadc79;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 40px;
+    font-weight: bold;
+    -webkit-text-stroke: 2px black;
+}
+
+.container {
+    background-color: rgba(255, 255, 255);
+    /* opacity: 0.5; */
+    margin: 30px;
+    min-width: 400px;
+    width: 40%;
+    height: 500px;
+}
+
+.table_wrap {
+    display: flex;
+}
+
+#ability_table {
+    /* width: 100%; */
+    margin: 10px;
+    text-align: center;
+}
+
+.figure_wrap {
+    display: flex;
+    flex-flow: row;
+}
+
+#ability_table th {
+    min-width: 80px;
+}
+
+.diamond_figure {
+    width: 20px; height: 20px;
+    border-radius: 3px;
+    margin: 6px;
+    transform: rotate(45deg);
+}
+
+.upYN .diamond_figure {
+    border: 2px solid blue;
+}
+
+.downYN .diamond_figure {
+    border: 2px solid red;
+}
+
+
+
+/* .specup_efficiency {
+
+}
+
+
+
+#specup_table {
+    
+}
+
+#specup_table th {
+    
+}
+
+#specup_table td {
+    
+}
+
+.ability_stone {
+    
+} */
