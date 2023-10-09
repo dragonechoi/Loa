@@ -1,80 +1,119 @@
-#header{
+#header {
     width: 100%;
     align-items: center;
-   
+
     margin-top: 35px;
     display: flex;
-    border: 1px solid#FADC79;
+    border-bottom: 1px solid silver;
     padding: 10px;
+
 }
 
-#logo_container,#header_button{
+/* 헤더 wraper */
+
+#logo_container,
+#header_button {
     display: inline-block;
     position: relative;
-    
-   margin-left: 5%;
-   
-   
+
+    margin-left: 5%;
+
+
 }
-#logo_container{
+
+/* css 콘테이너 다중선택 */
+#logo_container {
+
     width: 180px;
     height: 130px;
-    /* 로고 이미지와 버튼 영역의 간격을 10px로 설정합니다. */ 
     margin-right: 140px;
     margin-left: 150px;
     margin-top: 5px;
+
 }
-#header_button{
-    
+
+/* 로고 전용 콘테이너 */
+
+#header_button {
+
     padding: 20px;
-   
+    background-image: url("../Images/headerbuttonBG.png");
+    font-weight: bold;
+
 }
-#lople_logo{
+
+/* 네비게이션 */
+#lople_logo {
     width: 180px;
     height: 130px;
     margin-left: 55px;
+    background-image: url("../Images/stainles.png");
+    background-size: 270px 150px;
+    background-position: center;
 
 }
-.btn-outline-warning{
+
+/* 로고 */
+.btn {
     padding: 10px;
     display: inline-block;
     width: 130px;
     text-align: center;
     margin-left: 5px;
+    background-image: url("../Images/header-btn.png");
+    color: chocolate;
 }
+
+/* 네비게이션 버튼 */
 /* header */
 
-#footter_wrap{
+#footter_wrap {
     width: 100%;
     height: 200px;
     background-color: #01040a;
     margin-left: auto;
     margin-right: auto;
     display: flex;
-    
-    
-    
+
 }
-#footter_logo_container{
+
+/* footter warper */
+#footter_logo_container {
     width: 100%;
     height: 100%;
-   border: 1px solid #FADC79;
-   
-   display: flex;
-   justify-content: left;
-   color: #FADC79;
-   
+    border-bottom: 1px solid silver;
+    border-top: 1px solid silver;
+
+    display: flex;
+    justify-content: left;
+    color: #FADC79;
+
 }
+
+/* 푸터 로고 콘테이너 */
 #footter_logo {
     width: 180px;
     height: 130px;
     align-self: flex-start;
-    margin-left: 10%;
+    margin-left: 11%;
+    margin-top: 35px;
+    background-image: url("../Images/stainles.png");
+    background-size: 270px 150px;
+    background-position: center;
 }
-#footter_logo_container p{
+
+/* 푸터 로고 단일선택 */
+#footter_logo_container p {
     display: inline;
     padding: 5px;
     margin-top: 35px;
     margin-left: 10%;
 }
+
+/* 텍스트 요소 위치 정리 */
+.pointer:hover {
+    cursor: pointer;
+}
+
+/* 텍스트 항목 클래스 선택자 부여하여 마우스 커서 올릴시 커서 변경 */
 /* footter */
