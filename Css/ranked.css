@@ -1,0 +1,99 @@
+@font-face {
+    font-family: "LopleFont";
+    src: url("../font/solbiche.ttf");
+}
+#body {
+    font-family: "LopleFont";
+    background-color: #01040A;
+}
+/* 서버 및 직업 선택란 컨테이너 */
+#Select_Container{
+    display: flex;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+    width: 1200px;
+    font-size: 30px;
+    /* border: 1px solid white; */
+}
+.Select_Con_Btn{
+    background-color: transparent;
+    font-family: "LopleFont";
+    color: white;
+    border: 0px;
+    cursor: pointer;
+    font-size: 25px;
+}
+/* #Select_Container>div{
+    border: 1px solid white;
+} */
+/* 선택란 첫번째 버튼 컨테이너 */
+#Select_Con_FirstLine>div{
+    width: 570px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+#Select_Con_FirstLine>div>span{
+    color: #FADC79;
+    margin-right: 15px;
+}
+/* 선택란 중간 흰 막대 */
+#middle_line{
+    margin-left: -30px;
+    margin-right: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 15px;
+    height: 280px;
+    background-color: white;
+}
+/* 선택란 두번째 버튼 컨테이너 */
+#Select_Con_SecondLine>div{
+    width: 570px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+#Select_Con_SecondLine>div>span{
+    margin-right: 15px;
+    color: #FADC79;
+}
+/* 순위 컨테이너 */
+#Rank_Container{
+    display: flex;
+    width: 1200px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    font-size: 35px;
+    height:300px;
+}
+/* 순위 컨테이너 내부 랭크 타이틀 */
+#Standard_Rank{
+    display: flex;
+    width: 1200px;
+}
+.Rank{
+    width: 150px;
+}
+.CharacterName{
+    width: 210px
+}
+.ServerName{
+    width: 140px;
+}
+.JobClass{
+    width: 140px;
+}
+.Level{
+    width: 140px;
+}
+.ItemSet{
+    width: 240px;
+}
+.JobEngrave{
+    width: 170px;
+}
