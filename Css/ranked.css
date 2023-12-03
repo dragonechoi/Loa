@@ -19,7 +19,6 @@
     font-size: 30px;
     /* border: 1px solid white; */
 }
-
 .Select_Con_CheckBox {
     background-color: transparent;
     font-family: "LopleFont";
@@ -34,34 +33,35 @@
     margin-right: 15px;
     cursor:pointer;
 }
-.btn-JobCheck:hover{
-    color: blue;
-}
 .Select_Con_CheckBox:checked + label{
     color: #FADC79;
 }
-.Select_Con_CheckBox:checked:hover + label{
-    color: blue;
-}
-
 /* #Select_Container>div{
     border: 1px solid white;
 } */
 /* 선택란 첫번째 체크박스 컨테이너 */
 #Select_Con_FirstLine>div {
-    width: 570px;
+    margin-left: 10px;
+    padding-top: 2.5px;
+    padding-bottom: 2.5px;
+    width: 550px;
     height: 50px;
     display: flex;
     align-items: center;
+    border-bottom: 1px solid white;
+}
+#Select_Con_FirstLine>div:nth-child(6){
+    border-bottom: 0px;
 }
 
 #Select_Con_FirstLine>div>span {
     color: #FADC79;
+    margin-left: 15px;
     margin-right: 15px;
 }
 
 /* 선택란 중간 흰 막대 */
-#middle_line {
+/* #middle_line {
     margin-left: -30px;
     margin-right: 40px;
     margin-top: 10px;
@@ -69,20 +69,29 @@
     width: 15px;
     height: 280px;
     background-color: white;
-}
+} */
 
 /* 선택란 두번째 체크박스 컨테이너 */
+
 #Select_Con_SecondLine>div {
+    margin-left: 50px;
+    padding-top: 2.5px;
+    padding-bottom: 2.5px;
     width: 580px;
     height: 50px;
     display: flex;
     align-items: center;
+    border-bottom: 1px solid white;
+}
+#Select_Con_SecondLine>div:nth-child(4){
+    border-bottom: 0px;
 }
 #Select_Con_SecondLine>div>label {
     font-size: 25px;
 }
 #Select_Con_SecondLine>div>span {
     margin-right: 15px;
+    margin-left: 15px;
     color: #FADC79;
 }
 
@@ -90,7 +99,7 @@
 #Rank_Container {
     display: flex;
     width: 1200px;
-    margin-top: 30px;
+    margin-top: 40px;
     margin-left: auto;
     margin-right: auto;
     background-color: rgb(157, 159, 180);
@@ -102,21 +111,94 @@
 #Rank_Category {
     display: flex;
     width: 1200px;
-    height: 95px;
     align-items: center;
     border-bottom: 1px solid black;
 }
+/* 랭크 카테고리 별도 양식 */
+.Rank_Category {
+    position: relative;
+    width: 150px;
+    text-align: center;
+}
+
+.CharacterName_Category {
+    position: relative;
+    width: 210px;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 2.67px;
+    padding-bottom: 2.67px;
+}
+
+.ServerName_Category {
+    position: relative;
+    width: 140px;
+    text-align: center;
+}
+
+.JobClass_Category {
+    position: relative;
+    width: 140px;
+    text-align: center;
+}
+
+.Level_Category {
+    position: relative;
+    width: 140px;
+    text-align: center;
+}
+
+.Level_Category>span {
+    color: rgb(41, 206, 206);
+}
+
+.ItemSet_Category {
+    font-size: 27px;
+    position: relative;
+    width: 100px;
+    text-align: center;
+    padding-top: 1.67px;
+    padding-bottom: 1.67px;
+}
+
+.JobEngrave_Category {
+    font-size: 27px;
+    position: relative;
+    width: 170px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 1.67px;
+    padding-bottom: 1.67px;
+}
+
+.NormalEngrave_Category{
+    display: flex;
+    width: 170px;
+    flex-direction: column;
+    text-align: center;
+}
+
+.NormalEngrave_Category>span{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: -5px;
+}
+
+/* 유저 랭킹 란 */
 .User_Ranking{
     display: flex;
     width: 1200px;
     height: 95px;
     align-items: center;
-    border-bottom: 1px solid black;
+    border-bottom:1px solid black;
 }
 .Rank {
     position: relative;
     width: 150px;
     text-align: center;
+    padding-top: 31px;
+    padding-bottom: 31px;
 }
 
 .CharacterName {
@@ -124,24 +206,32 @@
     width: 210px;
     font-size: 25px;
     text-align: center;
+    padding-top: 33px;
+    padding-bottom: 33px;
 }
 
 .ServerName {
     position: relative;
     width: 140px;
     text-align: center;
+    padding-top: 33px;
+    padding-bottom: 33px;
 }
 
 .JobClass {
     position: relative;
     width: 140px;
     text-align: center;
+    padding-top: 33px;
+    padding-bottom: 33px;
 }
 
 .Level {
     position: relative;
     width: 140px;
     text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 .Level>span {
@@ -153,6 +243,8 @@
     position: relative;
     width: 100px;
     text-align: center;
+    padding-top: 1px;
+    padding-bottom: 1px;
 }
 
 .JobEngrave {
@@ -162,6 +254,8 @@
     display: flex;
     flex-direction: column;
     text-align: center;
+    padding-top: 18px;
+    padding-bottom: 18px;
 }
 
 .NormalEngrave{
