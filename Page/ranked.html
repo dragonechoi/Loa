@@ -1,10 +1,230 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta>
-        <title>로플</title>
-    </head>
-    <body>
-        <p>작업예정</p>
-    </body>
-</html>
+
+<head>
+    <meta chatset="utf-8">
+    <title>로플</title>
+    <link rel="shortcut icon" type="image/x-icon"
+    href="https://cdn.discordapp.com/attachments/1153213295671660606/1173514408849326121/logo.png?ex=65643b75&is=6551c675&hm=35bf294a0158f0b8ed5ee0a418dade463701dffcf0458b3009d74f52e4572dcf&">
+    <link rel="stylesheet" href="../Css/ranked.css">
+    <link rel="stylesheet" href="../Css/index.css">
+</head>
+
+<body id="body">
+
+
+    <div id="header">
+
+        <div id="logo_container">
+            <a href="./index.html"><img src="../Images/logo.png" alt="logo" id="logo"></a>
+        </div>
+        <div id="header_button">
+            <a href="./market.html"><button type="button" class="btn">상점</button></a>
+            <a href="./guild.html"><button type="button" class="btn">길드</button></a>
+            <a href="./ranked.html"><button type="button" class="btn">랭크</button></a>
+            <a href="./total.html"><button type="button" class="btn">통계</button></a>
+            <a href="./island_main.html" target="_blank"><button type="button" class="btn">지혜의 섬</button></a>
+            <a href="./optimization.html" target="_blank"><button type="button" class="btn">최적화</button></a>
+            <a href="./status.html"><button type="button" class="btn">각인</button></a>
+        </div>
+        <img src="../Icon/77fea804eb91e9b5.png" alt="aaa" id="menu_button" width="100px">
+    </div>
+    <!-- 헤더 영역 -->
+
+
+
+    <div id="Select_Container">
+        <div id="Select_Con_FirstLine">
+            <div>
+                <span>전사</span>
+                <input class="Select_Con_CheckBox" type="checkbox" id="Destroyer" value="디스트로이어"><label for="Destroyer"
+                    class="btn-JobCheck">디스트로이어</label>
+                <input class="Select_Con_CheckBox" type="checkbox" id="Berserker" value="버서커"><label for="Berserker"
+                    class="btn-JobCheck">버서커</label>
+                <input class="Select_Con_CheckBox" type="checkbox" id="slayer" value="슬레이어"><label for="slayer"
+                    class="btn-JobCheck">슬레이어</label>
+                <input class="Select_Con_CheckBox" type="checkbox" id="War" value="워로드"><label for="War"
+                    class="btn-JobCheck">워로드</label>
+                <input class="Select_Con_CheckBox" type="checkbox" id="Holy" value="홀리나이트"><label for="Holy"
+                    class="btn-JobCheck">홀리나이트</label>
+            </div>
+            <div>
+                <span>무도가</span>
+                <input class="Select_Con_CheckBox" type="checkbox" id="Gigong" value="기공사"><label for="Gigong"
+                    class="btn-JobCheck">기공사</label>
+                <input class="Select_Con_CheckBox" type="checkbox" id="Battle" value="배틀마스터"><label for="Battle"
+                    class="btn-JobCheck">배틀마스터</label>
+                <input class="Select_Con_CheckBox" type="checkbox" id="Striker" value="스트라이커"><label for="Striker"
+                    class="btn-JobCheck">스트라이커</label>
+                <input class="Select_Con_CheckBox" type="checkbox" id="infighter" value="인파이터"><label for="infighter"
+                    class="btn-JobCheck">인파이터</label>
+                <input class="Select_Con_CheckBox" type="checkbox" id="Chang" value="창술사"><label for="Chang"
+                    class="btn-JobCheck">창술사</label>
+            </div>
+            <div>
+                <span>헌터</span>
+                <input class="Select_Con_CheckBox" type="checkbox" id="Gun" value="건슬링어"><label for="Gun"
+                    class="btn-JobCheck">건슬링어</label>
+                <input class="Select_Con_CheckBox" type="checkbox" id="Devil" value="데빌헌터"><label for="Devil"
+                    class="btn-JobCheck">데빌헌터</label>
+                <input class="Select_Con_CheckBox" type="checkbox" id="Blaster" value="블래스터"><label for="Blaster"
+                    class="btn-JobCheck">블래스터</label>
+                <input class="Select_Con_CheckBox" type="checkbox" id="Skauter" value="스카우터"><label for="Skauter"
+                    class="btn-JobCheck">스카우터</label>
+                <input class="Select_Con_CheckBox" type="checkbox" id="Hokeye" value="호크아이"><label for="Hokeye"
+                    class="btn-JobCheck">호크아이</label>
+            </div>
+            <div>
+                <span>마법사</span>
+                <input class="Select_Con_CheckBox" type="checkbox" id="Bard" value="바드"><label for="Bard"
+                    class="btn-JobCheck">바드</label>
+                <input class="Select_Con_CheckBox" type="checkbox" id="Summon" value="서머너"><label for="Summon"
+                    class="btn-JobCheck">서머너</label>
+                <input class="Select_Con_CheckBox" type="checkbox" id="Sorcer" value="소서리스"><label for="Sorcer"
+                    class="btn-JobCheck">소서리스</label>
+                <input class="Select_Con_CheckBox" type="checkbox" id="Arkana" value="아르카나"><label for="Arkana"
+                    class="btn-JobCheck">아르카나</label>
+            </div>
+            <div>
+                <span>암살자</span>
+                <input class="Select_Con_CheckBox" type="checkbox" id="Demon" value="데모닉"><label for="Demon"
+                    class="btn-JobCheck">데모닉</label>
+                <input class="Select_Con_CheckBox" type="checkbox" id="Reaper" value="리퍼"><label for="Reaper"
+                    class="btn-JobCheck">리퍼</label>
+                <input class="Select_Con_CheckBox" type="checkbox" id="Blade" value="블래이드"><label for="Blade"
+                    class="btn-JobCheck">블래이드</label>
+                <input class="Select_Con_CheckBox" type="checkbox" id="Soul" value="소울이터"><label for="Soul"
+                    class="btn-JobCheck">소울이터</label>
+            </div>
+            <div>
+                <span>스페셜리스트</span>
+                <input class="Select_Con_CheckBox" type="checkbox" id="Gisang" value="기상술사"><label for="Gisang"
+                    class="btn-JobCheck">기상술사</label>
+                <input class="Select_Con_CheckBox" type="checkbox" id="Dohwa" value="도화가"><label for="Dohwa"
+                    class="btn-JobCheck">도화가</label>
+            </div>
+        </div>
+        <div id="Select_Con_SecondLine">
+            <div>
+                <span>서버</span>
+                <input class="Select_Con_CheckBox" type="checkbox" id="Ninav"><label for="Ninav"
+                    class="btn-JobCheck">니나브</label>
+                <input class="Select_Con_CheckBox" type="checkbox" id="Lupeon"><label for="Lupeon"
+                    class="btn-JobCheck">루페온</label>
+                <input class="Select_Con_CheckBox" type="checkbox" id="Silian"><label for="Silian"
+                    class="btn-JobCheck">실리안</label>
+                <input class="Select_Con_CheckBox" type="checkbox" id="Aman"><label for="Aman"
+                    class="btn-JobCheck">아만</label>
+                <input class="Select_Con_CheckBox" type="checkbox" id="Abrel"><label for="Abrel"
+                    class="btn-JobCheck">아브렐슈드</label>
+                <input class="Select_Con_CheckBox" type="checkbox" id="Kadan"><label for="Kadan"
+                    class="btn-JobCheck">카단</label>
+                <input class="Select_Con_CheckBox" type="checkbox" id="Kamain"><label for="Kamain"
+                    class="btn-JobCheck">카마인</label>
+                <input class="Select_Con_CheckBox" type="checkbox" id="Kajeros"><label for="Kajeros"
+                    class="btn-JobCheck">카제로스</label>
+            </div>
+            <div>
+                <span>세트</span>
+                <input class="Select_Con_CheckBox" type="checkbox" id="Galmang"><label for="Galmang"
+                    class="btn-JobCheck">갈망</label>
+                <input class="Select_Con_CheckBox" type="checkbox" id="Guwon"><label for="Guwon"
+                    class="btn-JobCheck">구원</label>
+                <input class="Select_Con_CheckBox" type="checkbox" id="Maehok"><label for="Maehok"
+                    class="btn-JobCheck">매혹</label>
+                <input class="Select_Con_CheckBox" type="checkbox" id="Baesin"><label for="Baesin"
+                    class="btn-JobCheck">배신</label>
+                <input class="Select_Con_CheckBox" type="checkbox" id="Samyeol"><label for="Samyeol"
+                    class="btn-JobCheck">사멸</label>
+                <input class="Select_Con_CheckBox" type="checkbox" id="Akmong"><label for="Akmong"
+                    class="btn-JobCheck">악몽</label>
+                <input class="Select_Con_CheckBox" type="checkbox" id="Jibae"><label for="Jibae"
+                    class="btn-JobCheck">지배</label>
+                <input class="Select_Con_CheckBox" type="checkbox" id="Pagwi"><label for="Pagwi"
+                    class="btn-JobCheck">파괴</label>
+                <input class="Select_Con_CheckBox" type="checkbox" id="Hwangak"><label for="Hwangak"
+                    class="btn-JobCheck">환각</label>
+            </div>
+            <div id="JobEngrave_Select">
+                <span>직업 각인</span>
+            </div>
+            <div>
+                <span>레벨</span>
+                <input type="number" min="1540" max="1655" value="1540">
+                <input type="range" value="1540,1655">
+                <input type="number" min="1540" max="1655" value="1655">
+            </div>
+        </div>
+    </div>
+    <div id="Rank_Container">
+        <div id="Rank_Category">
+            <div class="Rank_Category">순위</div>
+            <div class="CharacterName_Category">닉네임</div>
+            <div class="ServerName_Category">서버</div>
+            <div class="JobClass_Category">직업</div>
+            <div class="Level_Category">아이템 레벨</div>
+            <div class="ItemSet_Category">아이템 세트</div>
+            <div class="JobEngrave_Category">직업 각인</div>
+            <div class="NormalEngrave_Category" style="font-size:25px;">일반 각인</div>
+        </div>
+        <div class="User_Ranking">
+            <div class="Rank">10000000</div>
+            <div class="CharacterName">열두글자억지로채우는중임</div>
+            <div class="ServerName">다섯글자만</div>
+            <div class="JobClass">다섯글자만</div>
+            <div class="Level">1555.55<br><span>엘라 + 8</span></div>
+            <div class="ItemSet">2갈망<br>2사멸<br>2환각</div>
+            <div class="JobEngrave">
+                <span>광전사의 비기 3</span>
+                <span>광기 3</span>
+            </div>
+            <div class="NormalEngrave">
+                <span>마나 최대 증가 <span style="color:rgb(175, 97, 34)">3</span></span>
+                <span>마나 최대 증가 <span style="color:blue">2</span></span>
+                <span>마나 최대 증가 <span style="color:rgb(64, 163, 64)">1</span></span>
+                <span>마나 최대 증가 <span>3</span></span>
+                <span style="color:orange">마나 최대 증가 2</span>
+            </div>
+        </div>
+        <div class="User_Ranking">
+            <div class="Rank">10000000</div>
+            <div class="CharacterName">열두글자억지로채우는중임</div>
+            <div class="ServerName">다섯글자만</div>
+            <div class="JobClass">다섯글자만</div>
+            <div class="Level">1555.55<br><span>엘라 + 8</span></div>
+            <div class="ItemSet">2갈망<br>2사멸<br>2환각</div>
+            <div class="JobEngrave">
+                <span>광전사의 비기 3</span>
+                <span>광기 3</span>
+            </div>
+            <div class="NormalEngrave">
+                <span>마나 최대 증가 <span style="color:rgb(175, 97, 34)">3</span></span>
+                <span>마나 최대 증가 <span style="color:blue">2</span></span>
+                <span>마나 최대 증가 <span style="color:rgb(64, 163, 64)">1</span></span>
+                <span>마나 최대 증가 <span>3</span></span>
+                <span style="color:orange">마나 최대 증가 2</span>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div id="footter_wrap">
+        <div id="footter_logo_container">
+
+            <div id="table_container">
+                <table>
+                    <tr>
+                        <th class="footter_th">Lople</th>
+                        <th class="footter_th">문의/건의사항</th>
+                        <th class="footter_th">후원</th>
+                    </tr>
+                </table>
+            </div>
+
+        </div>
+
+    </div>
+    <!-- footter 영역 -->
+</body>
+</htm
