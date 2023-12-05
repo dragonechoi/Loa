@@ -5,14 +5,17 @@
 
   <meta charset="urf-8">
   <title>로플</title>
-  <link rel="stylesheet" href="../Css/footter.css">
+  <!-- <link rel="stylesheet" href="../Css/footter.css"> -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="../Css/header.css">
+  <!-- <link rel="stylesheet" href="../Css/header.css"> -->
   <link rel="stylesheet" href="../Css/index.css">
   <link rel="shortcut icon" type="image/x-icon"
-  href="https://cdn.discordapp.com/attachments/1153213295671660606/1173514408849326121/logo.png?ex=65643b75&is=6551c675&hm=35bf294a0158f0b8ed5ee0a418dade463701dffcf0458b3009d74f52e4572dcf&">
+    href="https://cdn.discordapp.com/attachments/1123568514125541498/1153716193904042034/51cd10be57fb5e75.png">
   <!-- meta tag & 외부 문서링크 -->
-
+  <link rel="stylesheet" href="../Css/status.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="../JS/status.js"></script>
+  
 </head>
 
 <body id="body">
@@ -34,7 +37,231 @@
     <img src="../Icon/77fea804eb91e9b5.png" alt="aaa" id="menu_button" width="100px">
   </div>
   <!-- 헤더 영역 -->
-  <div id="footter_wrap">
+
+
+  <!-- container 영역 -->
+  <div class="container_wrap">
+    <div class="container">
+      <ul>
+        <li class="between">
+          <h3>목표 각인</h3>
+          <div id="call_box" style="height: 40px; width: 40px; background-color: gray;"></div> <!-- 캐릭터 불러오기 버튼 -->
+        </li>
+        <li class="bottom_line between">
+          <div class="form-floating">
+            <input type="text" class="form-control" id="floatingPassword" placeholder=" ">
+            <label for="floatingPassword">각인 1</label>
+          </div>
+          <select class="form-select select">
+            <option selected>미사용</option>
+            <option value="">3 LV</option>
+            <option value="">2 LV</option>
+            <option value="">1 LV</option>
+            <option value="">0 LV (+3)</option>
+          </select>
+        </li>
+        <li class="bottom_line between">
+          <div class="form-floating">
+            <input type="text" class="form-control" id="floatingPassword" placeholder=" ">
+            <label for="floatingPassword">각인 2</label>
+          </div>
+          <select class="form-select select">
+            <option selected>미사용</option>
+            <option value="">3 LV</option>
+            <option value="">2 LV</option>
+            <option value="">1 LV</option>
+            <option value="">0 LV (+3)</option>
+          </select>
+        </li>
+        <li class="bottom_line between">
+          <div class="form-floating">
+            <input type="text" class="form-control" id="floatingPassword" placeholder=" ">
+            <label for="floatingPassword">각인 3</label>
+          </div>
+          <select class="form-select select">
+            <option selected>미사용</option>
+            <option value="">3 LV</option>
+            <option value="">2 LV</option>
+            <option value="">1 LV</option>
+            <option value="">0 LV (+3)</option>
+          </select>
+        </li>
+        <li class="bottom_line between">
+          <div class="form-floating">
+            <input type="text" class="form-control" id="floatingPassword" placeholder=" ">
+            <label for="floatingPassword">각인 4</label>
+          </div>
+          <select class="form-select select">
+            <option selected>미사용</option>
+            <option value="">3 LV</option>
+            <option value="">2 LV</option>
+            <option value="">1 LV</option>
+            <option value="">0 LV (+3)</option>
+          </select>
+        </li>
+        <li class="bottom_line between">
+          <div class="form-floating">
+            <input type="text" class="form-control" id="floatingPassword" placeholder=" ">
+            <label for="floatingPassword">각인 5</label>
+          </div>
+          <select class="form-select select">
+            <option selected>미사용</option>
+            <option value="">3 LV</option>
+            <option value="">2 LV</option>
+            <option value="">1 LV</option>
+            <option value="">0 LV (+3)</option>
+          </select>
+        </li>
+        <li class="bottom_line between">
+          <div class="form-floating">
+            <input type="text" class="form-control" id="floatingPassword" placeholder=" ">
+            <label for="floatingPassword">각인 6</label>
+          </div>
+          <select class="form-select select">
+            <option selected>미사용</option>
+            <option value="">3 LV</option>
+            <option value="">2 LV</option>
+            <option value="">1 LV</option>
+            <option value="">0 LV (+3)</option>
+          </select>
+        </li>
+      </ul>
+    </div>
+    <div class="container">
+      <ul>
+        <li>
+          <h3>보유 각인</h3>
+        </li>
+        <li class="bottom_line between">
+          <div class="form-floating">
+            <input type="text" class="form-control" placeholder=" ">
+            <label for="floatingPassword">각인 1</label>
+          </div>
+          <select class="form-select select">
+            <option selected>수치</option>
+            <option value="">+ 12</option>
+            <option value="">+ 9</option>
+            <option value="">+ 6</option>
+            <option value="">+ 3</option>
+          </select>
+        </li>
+        <li class="bottom_line between">
+          <div class="form-floating">
+            <input type="text" class="form-control" placeholder=" ">
+            <label for="floatingPassword">각인 2</label>
+          </div>
+          <select class="form-select select">
+            <option selected>수치</option>
+            <option value="">+ 12</option>
+            <option value="">+ 9</option>
+            <option value="">+ 6</option>
+            <option value="">+ 3</option>
+          </select>
+        </li>
+        <li class="bottom_line between">
+          <div class="form-floating">
+            <input type="text" class="form-control" placeholder=" ">
+            <label for="floatingPassword">각인 3</label>
+          </div>
+          <select class="form-select select">
+            <option selected>수치</option>
+            <option value="">+ 12</option>
+            <option value="">+ 9</option>
+            <option value="">+ 6</option>
+            <option value="">+ 3</option>
+          </select>
+        </li>
+        <li class="bottom_line between">
+          <div class="form-floating">
+            <input type="text" class="form-control" placeholder=" ">
+            <label for="floatingPassword">각인 4</label>
+          </div>
+          <select class="form-select select">
+            <option selected>수치</option>
+            <option value="">+ 12</option>
+            <option value="">+ 9</option>
+            <option value="">+ 6</option>
+            <option value="">+ 3</option>
+          </select>
+        </li>
+        <li class="bottom_line between">
+          <div class="form-floating">
+            <input type="text" class="form-control" placeholder=" ">
+            <label for="floatingPassword">각인 5</label>
+          </div>
+          <select class="form-select select">
+            <option selected>수치</option>
+            <option value="">+ 12</option>
+            <option value="">+ 9</option>
+            <option value="">+ 6</option>
+            <option value="">+ 3</option>
+          </select>
+        </li>
+        <li class="bottom_line between">
+          <div class="form-floating">
+            <input type="text" class="form-control" placeholder=" ">
+            <label for="floatingPassword">각인 6</label>
+          </div>
+          <select class="form-select select">
+            <option selected>수치</option>
+            <option value="">+ 12</option>
+            <option value="">+ 9</option>
+            <option value="">+ 6</option>
+            <option value="">+ 3</option>
+          </select>
+        </li>
+      </ul>
+    </div>
+    <div class="container">
+      <ul>
+        <li>
+          <h3>어빌리티 스톤</h3> <!-- 항목 하나씩을 추가하고 각 항목을 스톤으로 -->
+        </li>
+        <li>
+          <div style="width: 100%; display: flex; align-items: center; justify-content: center; border: 1px solid skyblue; border-radius: 9px;">
+            돌 1
+          </div>
+        </li>
+        <li>
+          <div style="width: 100%; display: flex; justify-content: center; border: 1px solid skyblue; border-radius: 9px;">
+            <div id="call_box" style="height: 40px; width: 40px; background-color: gray; margin: 7px;"></div> <!-- 플러스 버튼 들어갈 자리 -->
+          </div>
+        </li>
+        <li class="bottom_line between">
+          <div class="form-floating">
+            <input type="text" class="form-control" placeholder=" ">
+            <label for="floatingPassword">각인 1</label>
+          </div>
+          <div class="form-floating">
+            <input type="number" class="form-control" placeholder=" ">
+            <label for="floatingPassword">수치</label>
+          </div>
+        </li>
+        <li class="bottom_line between">
+          <div class="form-floating">
+            <input type="text" class="form-control" placeholder=" ">
+            <label for="floatingPassword">각인 2</label>
+          </div>
+          <div class="form-floating">
+            <input type="number" class="form-control" placeholder=" ">
+            <label for="floatingPassword">수치</label>
+          </div>
+        </li>
+        <li class="bottom_line between">
+          <div class="form-floating">
+            <input type="text" class="form-control" placeholder=" ">
+            <label for="floatingPassword">각인 3</label>
+          </div>
+          <div class="form-floating">
+            <input type="number" class="form-control" placeholder=" ">
+            <label for="floatingPassword">수치</label>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <!-- container 영역 끝 -->
+<div id="footter_wrap">
     <div id="footter_logo_container">
      
         <div id="table_container">

@@ -1,0 +1,77 @@
+@font-face {
+    font-family: "LopleFont";
+    src: url("../font/solbiche.ttf");
+}
+
+@import "../node_modules/bootstrap/scss/variables";
+
+.wt-100 {
+    width: 100%;
+}
+
+.between {
+    justify-content: space-between;
+}
+
+/* 바디영역 */
+body {
+    font-family: "LopleFont";
+    margin: 0px;
+    background-color: #01040A;
+}
+/* 컨테이너 영역 */
+.container_wrap {
+    display: flex;
+    justify-content: center;
+    flex-flow: row;
+}
+
+.container {
+    height: 500px;
+    width: 400px;
+    background-color: white;
+    margin: 10px;
+    justify-content: center;
+}
+/* 컨테이너 내 컨텐츠 */
+
+ul {
+    padding: 0px;
+    width: 350px;
+    list-style: none;
+    display: flex;
+    flex-flow: column;
+}
+
+li {
+    display: flex;
+    flex-flow: row;
+    margin: 10px;
+}
+
+.bottom_line {
+    border-bottom: 1px solid darkgrey;
+}
+
+.form-floating, .form-floating>.form-control, .form-select {
+    height: 50px;
+    width: 150px;
+    border: none;
+    border-radius: 0px;
+    outline: 0px;
+    font-size: 17px;
+}
+
+.form-floating>.form-control:focus {
+    color: white;
+    background-color: white;
+    border-color: white;
+    box-shadow: white;
+}
+
+#floatingPassword:focus {
+    color: white;
+    background-color: white;
+    border-color: white;
+    box-shadow: white;
+}
