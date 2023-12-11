@@ -1,0 +1,16 @@
+#wap_con_guild {
+    display: flex;
+    position: relative;
+    background-color: white;
+    margin: 15px 20% 15px 20%;
+    font-size: 23px;
+
+
+}
+
+.th_guild {
+    padding: 5px;
+   padding-left: 80px;
+   
+    text-align: center;
+}

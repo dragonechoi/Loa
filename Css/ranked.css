@@ -83,20 +83,16 @@
     align-items: center;
     border-bottom: 1px solid white;
 }
-#Select_Con_SecondLine>div:nth-child(6){
-    border-bottom: 0px;
+/* Btn - content 클릭시 클래스 추가 */
+.content_area.act{
+    visibility: visible;
+    opacity: 1;
+    margin-bottom: -50px;
 }
-#Select_Con_SecondLine>div>label {
-    font-size: 25px;
-}
-#Select_Con_SecondLine>div>span {
-    margin-right: 15px;
-    margin-left: 15px;
-    color: #FADC79;
-}
-
-/* 순위 컨테이너 */
-#Rank_Container {
+/* 아코디언 content */
+.content_area{
+    background-color: #14040A;
+    visibility: hidden;
     display: flex;
     width: 1200px;
     margin-top: 40px;
