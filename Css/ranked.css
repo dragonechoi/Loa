@@ -83,7 +83,7 @@
     align-items: center;
     border-bottom: 1px solid white;
 }
-#Select_Con_SecondLine>div:nth-child(4){
+#Select_Con_SecondLine>div:nth-child(6){
     border-bottom: 0px;
 }
 #Select_Con_SecondLine>div>label {
